@@ -1,4 +1,4 @@
-.body {
+body {
     margin: 0;
 }
 
@@ -19,11 +19,12 @@ BLUE BAR HEADER
     /*border-bottom: 1px solid #ffffff;*/
     color: #fff9fb;
     /*width: 100vw;*/
-    margin-left: calc(50% - 50vw);
+    /*margin-left: calc(50% - 50vw);
     margin-right: calc(50% - 50vw);
-    margin-top: calc(50% - 50vw);
+    margin-top: calc(50% - 50vw);*/
     padding-bottom: 5px;
     padding-top: 5px;
+    width: 100%;
 }
 .top-blue-bar strong {
     font-weight: 800;
@@ -40,8 +41,8 @@ NAV BAR HEADER
 
 /* HEADER WRAPPER */
 .csite-header {
-    margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
+    /*margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);*/
     background-color: #fff9fb;
 }
 /* GRID CONTAINER*/
