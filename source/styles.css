@@ -1,0 +1,139 @@
+.body {
+    margin: 0;
+}
+
+/*
+==========================================================================
+BLUE BAR HEADER
+===========================================================================
+*/
+.top-blue-bar {
+    background-color: #004c8d;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    /*padding: 6px, 16px;*/
+    font-size: 12px;
+    /*border-bottom: 1px solid #ffffff;*/
+    color: #fff9fb;
+    /*width: 100vw;*/
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    margin-top: calc(50% - 50vw);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.top-blue-bar strong {
+    font-weight: 800;
+}
+.top-blue-bar p {
+    letter-spacing: 0.5px;
+}
+
+/*
+==========================================================================
+NAV BAR HEADER
+===========================================================================
+*/
+
+/* HEADER WRAPPER */
+.csite-header {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    background-color: #fff9fb;
+}
+/* GRID CONTAINER*/
+.grid-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* HEADER FLEX ROW */
+.csite-header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 18px 0;
+}
+
+/* HEADER NAV BAR LOGO */
+.csite-logo-img {
+    width: 140px;
+    height: auto;
+    display: block;
+}
+
+/* HEADER NAV BAR CONTENT */
+.csite-navbar {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+/* NAVBAR OPTIONS */
+.csite-navbar li a {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000
+}
+/* NAVBAR OPTION HOVER COLOR*/
+.csite-navbar li a:hover {
+    color: #0ed2db;
+}
+
+/* CALL US BUTTON */
+.call-btn {
+    display:flex;
+    flex-direction: column;
+    color: #000000;
+}
+.csite-navbar-phone-number {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+.csite-navbar-phone--text {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 15px;
+    color: #004c9c;
+    font-weight: 600;
+}
+.csite-navbar-phone--icon {
+    width: 18px;
+    height: auto;
+}
+.csite-navbar-phone--number {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+}
+
+/* GET MY OFFER BUTTON */
+.csite-call-btn-small {
+    background-color: #00b43d;
+    color: #fff9fb;
+    padding: 10px 22px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+}
+/* GET MY OFFER BUTTON HOVER */
+.csite-call-btn-small:hover {
+    background-color: #0a9c24;
+}
+.csite-call-btn {
+    display: flex;
+    align-items: center;
+}
