@@ -1,5 +1,11 @@
+/* BASIC RESET */
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /*
@@ -9,28 +15,21 @@ BLUE BAR HEADER
 */
 .top-blue-bar {
     background-color: #004c8d;
-    font-family: "Inter", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
-    /*padding: 6px, 16px;*/
+    padding: 6px 16px;
     font-size: 12px;
-    /*border-bottom: 1px solid #ffffff;*/
     color: #fff9fb;
-    /*width: 100vw;*/
-    /*margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
-    margin-top: calc(50% - 50vw);*/
-    padding-bottom: 5px;
-    padding-top: 5px;
-    width: 100%;
+    /*width: 100%;*/
 }
 .top-blue-bar strong {
     font-weight: 800;
 }
 .top-blue-bar p {
     letter-spacing: 0.5px;
+    white-space: nowrap;
 }
 
 /*
@@ -41,15 +40,13 @@ NAV BAR HEADER
 
 /* HEADER WRAPPER */
 .csite-header {
-    /*margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);*/
     background-color: #fff9fb;
 }
 /* GRID CONTAINER*/
 .grid-container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 16px;
 }
 /* HEADER FLEX ROW */
 .csite-header_content {
@@ -62,7 +59,7 @@ NAV BAR HEADER
 
 /* HEADER NAV BAR LOGO */
 .csite-logo-img {
-    width: 140px;
+    width: 280px;
     height: auto;
     display: block;
 }
@@ -70,17 +67,21 @@ NAV BAR HEADER
 /* HEADER NAV BAR CONTENT */
 .csite-navbar {
     display: flex;
-    gap: 28px;
+    gap: 20px;
     align-items: center;
     flex-grow: 1;
     justify-content: center;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0.5px;
 }
 
 /* NAVBAR OPTIONS */
 .csite-navbar li a {
-    font-size: 15px;
+    text-decoration: none;
+    font-size: 18px;
     font-weight: 600;
-    color: #000000
+    color: #000000;
 }
 /* NAVBAR OPTION HOVER COLOR*/
 .csite-navbar li a:hover {
@@ -92,6 +93,8 @@ NAV BAR HEADER
     display:flex;
     flex-direction: column;
     color: #000000;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
 }
 .csite-navbar-phone-number {
     display: flex;
@@ -108,10 +111,10 @@ NAV BAR HEADER
 }
 .csite-navbar-phone--icon {
     width: 18px;
-    height: auto;
+    height: 25px;
 }
 .csite-navbar-phone--number {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     color: #000000;
 }
@@ -126,9 +129,11 @@ NAV BAR HEADER
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
-    font-size: 15px;
+    font-size: 21px;
     font-weight: 700;
     box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
 }
 /* GET MY OFFER BUTTON HOVER */
 .csite-call-btn-small:hover {
